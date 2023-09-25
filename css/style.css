@@ -30,7 +30,12 @@ ul {
 }
 
 .container-big {
-    width: 70%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container-small {
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -95,4 +100,36 @@ header {
     /* Debug */
     min-height: 300px;
     background-color: blue;
+}
+
+/* MAIN */
+main {
+    /* Debug */
+    padding-top: 8em;
+}
+
+.business-plan h2 {
+    padding: 2em 0;
+}
+
+.business-choice {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.choice {
+    border: 1px solid black;
+    width: 31%;
+    margin-bottom: 2.5em;
+    /* Debug */
+    min-height: 500px;
+    background-color: red;
+}
+
+.choice-large {
+    width: 100%;
+    border: 1px solid black;
+    /* Debug */
+    min-height: 200px;
+    background-color: red;
 }
