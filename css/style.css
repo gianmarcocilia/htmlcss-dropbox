@@ -108,6 +108,8 @@ main {
     padding-top: 8em;
 }
 
+/* Section business plan */
+
 .business-plan h2 {
     padding: 2em 0;
 }
@@ -132,4 +134,20 @@ main {
     /* Debug */
     min-height: 200px;
     background-color: red;
+}
+
+/* Section search partner */
+.search-partner {
+    padding: 5em 0;
+    justify-content: space-between;
+}
+.section-img {
+    width: 62%;
+    /* Debug */
+    min-height: 300px;
+    background-color: blue;
+}
+
+.section-content {
+    width: 35%;
 }
