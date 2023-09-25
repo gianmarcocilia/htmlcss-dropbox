@@ -50,12 +50,16 @@ a {
 }
 
 .btn {
-    background-color: var(--btn-blu);
     padding: .5em 1em;
     display: block;
 }
 
+.btn-white {
+    border: 1px solid black;
+}
+
 .btn-blu {
+    background-color: var(--btn-blu);
     color: white;
 }
 
@@ -221,19 +225,25 @@ main h2 {
 }
 
 /* Section search partner */
-.search-partner {
-    justify-content: space-between;
-}
-
 .section-img {
-    width: 62%;
-    /* Debug */
-    min-height: 300px;
-    background-color: blue;
+    width: 65%;
 }
 
 .section-content {
-    width: 35%;
+    width: 30%;
+}
+
+.section-content h3 {
+    font-size: 1.5rem;
+    padding: 2em 0 1em;
+}
+
+.section-content p {
+    padding-bottom: 2em;
+}
+
+.section-content .btn {
+    width: fit-content;
 }
 
 /* Section with dropbox business */
