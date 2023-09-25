@@ -192,3 +192,22 @@ main section {
 .section-bg-color h2 {
     padding-right: 8em;
 }
+
+/* FOOTER */
+footer {
+    background-color: black;
+    /* Debug */
+    min-height: 700px;
+}
+
+.footer-top {
+    /* Debug */
+    min-height: 500px;
+    background-color: gray;
+}
+
+.footer-bottom {
+    /* Debug */
+    min-height: 200px;
+    background-color: lightblue;
+}
