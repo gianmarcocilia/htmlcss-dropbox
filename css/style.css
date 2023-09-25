@@ -26,6 +26,10 @@ body {
     display: flex;
 }
 
+.space {
+    justify-content: space-between;
+}
+
 ul {
     list-style: none;
 }
@@ -48,10 +52,15 @@ a {
 .btn {
     background-color: var(--btn-blu);
     padding: .5em 1em;
+    display: block;
 }
 
 .btn-blu {
     color: white;
+}
+
+.blu-icon span {
+    color: var(--btn-blu);
 }
 
 /* HEADER */
@@ -59,12 +68,13 @@ a {
 header {
     background-color: var(--bg-color);
     padding-top: calc(var(--header-nav-height) + 60px);
-    height: 750px;
+    height: 800px;
 }
 
 header h1 {
     font-size: 4rem;
-    font-weight: 900;
+    font-weight: 800;
+    padding-bottom: 1em;
 }
 
 /* Navbar */
@@ -104,25 +114,20 @@ header h1 {
 }
 
 /* Hero */
-.hero {
-    justify-content: space-between;
-}
-
 .hero-text {
     width: 25%;
+}
+
+.hero-img {
+    width: 65%;
 }
 
 .hero-text p {
     padding: 2em 0;
 }
 
-.hero-img {
-    width: 65%;
-    padding-top: 2em;
-}
-
 .arrow-down {
-    padding-top: 50px;
+    padding-top: 40px;
     display: block;
     font-size: 50px;
 }
@@ -130,17 +135,20 @@ header h1 {
 /* MAIN */
 
 main section {
-    padding-top: 6em;
+    padding-top: 8em;
+}
+
+main h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 /* Section business plan */
-
-.business-plan h2 {
+.radio-box {
     padding: 2em 0;
 }
 
 .business-choice {
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -148,23 +156,75 @@ main section {
     border: 1px solid black;
     width: 31%;
     margin-bottom: 2.5em;
-    /* Debug */
-    min-height: 500px;
-    background-color: red;
+}
+
+.choice-type {
+    text-align: center;
+    line-height: 3em;
+    border-bottom: 1px solid black;
+}
+
+.content-choice {
+    padding: 2em 2em 0;
+}
+
+.choice-title h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+.choice p {
+    margin-bottom: 1em;
+}
+
+.performance {
+    padding: 2em 0;
+}
+
+.performance .flex p {
+    width: 85%;
+}
+
+.btn-choice {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.buy-link {
+    color: rgb(0 0 238);
+    ;
+    text-decoration: underline;
+}
+
+.content-choice hr {
+    border: 1px solid rgb(208 208 211);
+    margin: 2.5em 0;
+    width: 50px;
+}
+
+.content-choice h4 {
+    font-weight: 600;
 }
 
 .choice-large {
     width: 100%;
     border: 1px solid black;
-    /* Debug */
-    min-height: 200px;
-    background-color: red;
+}
+
+.choice-large .choice-title {
+    width: 65%;
+}
+
+.choice-large .choice-title {
+    padding-bottom: 2em;
 }
 
 /* Section search partner */
 .search-partner {
     justify-content: space-between;
 }
+
 .section-img {
     width: 62%;
     /* Debug */

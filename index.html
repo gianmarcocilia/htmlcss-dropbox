@@ -10,7 +10,7 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap" rel="stylesheet">
     <!-- /Font -->
     <!-- Link icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -48,9 +48,11 @@
         <div class="container-big">
             <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             <!-- Hero -->
-            <section class="flex hero">
+            <section class="flex hero space">
                 <div class="hero-text">
-                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
+                        Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato
+                        per ottimizzare il flusso di lavoro esistente.</p>
                     <a class="btn btn-blu" href="">Inizia la tua prova gratuita</a>
                     <p>Annulla in qualsiasi momento</p>
                     <span class="arrow-down"><i class="fa-solid fa-arrow-down"></i></span>
@@ -67,12 +69,175 @@
     <main>
         <!-- Section with business plan -->
         <section class="container-small business-plan">
-            <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
-            <div class="flex business-choice">
-                <div class="choice"></div>
-                <div class="choice"></div>
-                <div class="choice"></div>
-                <div class="choice-large"></div>
+            <h2>Trova il piano business che fa per te</h2>
+            <div class="radio-box">
+                <input type="radio" name="fatturazione" value="mensile"> Fatturazione mensile
+                <input type="radio" name="fatturazione" value="annuale" checked> Fatturazione annuale
+            </div>
+            <div class="flex business-choice space">
+                <div class="choice">
+                    <div class="choice-type">
+                        <span><i class="fa-solid fa-user"></i> Singolo</span>
+                    </div>
+                    <div class="content-choice">
+                        <div class="choice-title">
+                            <h3>Professional</h3>
+                            <p><strong>&euro; 12.00</strong></p>
+                            <p>/mese</p>
+                        </div>
+                        <div class="performance">
+                            <div class="flex space">
+                                <span><i class="fa-solid fa-user"></i></span>
+                                <p>1 Utente</p>
+                            </div>
+                            <div class="flex space">
+                                <span><i class="fa-solid fa-folder"></i></span>
+                                <p>5 TB di spazio di archiviazione sicuro</p>
+                            </div>
+                            <div class="flex space">
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                                <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                            </div>
+                        </div>
+                        <div class="btn-choice">
+                            <a class="btn btn-blu" href="">Prova gratis per 30 giorni</a>
+                        </div>
+                        <p>oppure <a class="buy-link" href="">acquista ora</a></p>
+                        <hr>
+                        <h4>Punti salienti del piano</h4>
+                        <div class="performance">
+                            <div class="flex space blu-icon">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Invia file fino a 100 GB con Dropbox Transfert</p>
+                            </div>
+                            <div class="flex space blu-icon">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Cartelle offline su dispositivi mobili</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" choice">
+                    <div class="choice-type">
+                        <span><i class="fa-solid fa-people-group"></i> Team</span>
+                    </div>
+                    <div class="content-choice">
+                        <div class="choice-title">
+                            <h3>Advanced</h3>
+                            <p><strong>&euro; 18.00</strong></p>
+                            <p>/utente/mese</p>
+                        </div>
+                        <div class="performance">
+                            <div class="flex space">
+                                <span><i class="fa-solid fa-people-group"></i></span>
+                                <p>3 o più Utenti</p>
+                            </div>
+                            <div class="flex space">
+                                <span><i class="fa-solid fa-folder"></i></span>
+                                <p>Tutto lo spazio di cui ha bisogno il tuo team</p>
+                            </div>
+                            <div class="flex space">
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                                <p>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn-choice">
+                            <a class="btn btn-blu" href="">Prova gratis per 30 giorni</a>
+                        </div>
+                        <p>oppure <a class="buy-link" href="">acquista ora</a></p>
+                        <hr>
+                        <h4>Punti salienti del piano</h4>
+                        <div class="performance">
+                            <div class="flex space blu-icon">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Nessun limite di spazio per i file</p>
+                            </div>
+                            <div class="flex space blu-icon">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Cartelle offline su dispositivi mobili</p>
+                            </div>
+                            <div class="flex space blu-icon">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Risparmio del 50% rispetto alle iscrizioni singole</p>
+                            </div>
+                            <div class="flex space blu-icon">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Possibilità di inserire nuovi membri del team</p>
+                            </div>
+                            <div class="flex space blu-icon">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Gestione dei permessi in base ai ruoli</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="choice">
+                    <div class="choice-type">
+                        <span><i class="fa-solid fa-building"></i> Azienda</span>
+                    </div>
+                    <div class="content-choice">
+                        <div class="choice-title">
+                            <h3>Enterprise</h3>
+                            <p><strong>Contattaci</strong></p>
+                            <p>-</p>
+                        </div>
+                        <div class="performance">
+                            <div class="flex space">
+                                <span><i class="fa-solid fa-people-group"></i></span>
+                                <p>10 o più Utenti</p>
+                            </div>
+                            <div class="flex space">
+                                <span><i class="fa-solid fa-folder"></i></span>
+                                <p>Soluzioni personalizzabili per la tua azienda</p>
+                            </div>
+                            <div class="flex space">
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                                <p>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga
+                                    scala</p>
+                            </div>
+                        </div>
+                        <div class="btn-choice">
+                            <a class="btn btn-blu" href="">Contattaci</a>
+                        </div>
+                        <p>oppure <a class="buy-link" href="">acquista ora</a></p>
+                        <hr>
+                        <h4>Punti salienti del piano</h4>
+                        <div class="performance">
+                            <div class="flex space blu-icon">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Cartelle offline su dispositivi mobili</p>
+                            </div>
+                            <div class="flex space blu-icon">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Servizio assistenza 24/h</p>
+                            </div>
+                            <div class="flex space blu-icon">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Possibilità di personalizzazione totale</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="choice-large">
+                    <div class="choice-type">
+                        <span><i class="fa-solid fa-building"></i> Team</span>
+                    </div>
+                    <div class="content-choice flex space">
+                        <div class="choice-title">
+                            <h3>Enterprise</h3>
+                            <p><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
+                            <br>
+                            <br>
+                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella
+                                gestione su qualsiasi scala.</p>
+                        </div>
+                        <div class="btn-choice">
+                            <a class="btn btn-blu" href="">Contatta l'ufficio vendite</a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </section>
         <!-- /Section with business plan -->
