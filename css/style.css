@@ -31,12 +31,12 @@ ul {
 }
 
 .container-big {
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .container-small {
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -58,10 +58,13 @@ a {
 
 header {
     background-color: var(--bg-color);
-    padding-top: calc(var(--header-nav-height) + 20px);
-    font-weight: 600;
-    /* Debug */
-    height: 500px;
+    padding-top: calc(var(--header-nav-height) + 60px);
+    height: 750px;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: 900;
 }
 
 /* Navbar */
@@ -102,29 +105,32 @@ header {
 
 /* Hero */
 .hero {
-    padding-top: 2em;
     justify-content: space-between;
 }
 
 .hero-text {
-    width: 33%;
+    width: 25%;
+}
+
+.hero-text p {
+    padding: 2em 0;
 }
 
 .hero-img {
     width: 65%;
-    /* Debug */
-    min-height: 300px;
-    background-color: blue;
+    padding-top: 2em;
+}
+
+.arrow-down {
+    padding-top: 50px;
+    display: block;
+    font-size: 50px;
 }
 
 /* MAIN */
-main {
-    /* Debug */
-    padding: 6em 0;
-}
 
 main section {
-    padding-top: 4em;
+    padding-top: 6em;
 }
 
 /* Section business plan */
