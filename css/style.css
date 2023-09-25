@@ -151,3 +151,41 @@ main {
 .section-content {
     width: 35%;
 }
+
+/* Section with dropbox business */
+.dropbox-business {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 31%;
+    padding: 2em 0;
+    /* Debug */
+    min-height: 300px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+/* Section with logo partners */
+.section-partners {
+    width: 100%;
+}
+
+.content {
+    width: calc(100% / 3);
+    /* Debug */
+    min-height: 300px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+/* Section with bg color */
+.section-bg-color {
+    background-color: var(--bg-color);
+    padding: 5em 0;
+}
+
+.section-bg-color h2 {
+    padding-right: 8em;
+}
