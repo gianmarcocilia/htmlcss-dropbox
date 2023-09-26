@@ -160,12 +160,15 @@ main section {
 }
 
 main h2 {
-    padding-top: var(--header-nav-height);
     font-size: 2.5rem;
     font-weight: 700;
 }
 
 /* Section business plan */
+.business-plan h2 {
+    padding-top: var(--header-nav-height);
+}
+
 .radio-box {
     padding: 2em 0;
 }
@@ -358,13 +361,30 @@ main h2 {
 }
 
 .section-bg-color h2 {
-    padding: 0;
     color: rgb(97 8 43);
     width: 70%;
 }
 
 .section-bg-color .btn {
     background-color: white;
+}
+
+/* Section with questions */
+.question-section {
+    padding-bottom: 3em;
+}
+
+.question-section h2 {
+    padding-bottom: 2em;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+.question {
+    padding: 2em 0;
+    border-top: 1px solid black;
 }
 
 /* FOOTER */
