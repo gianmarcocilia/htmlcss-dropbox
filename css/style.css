@@ -70,10 +70,8 @@ a {
     color: var(--btn-blu);
 }
 
-hr {
-    border: 1px solid rgb(208 208 211);
-    margin: 2.5em 0;
-    width: 50px;
+.btn:hover {
+    filter: opacity(.5);
 }
 
 /* HEADER */
@@ -123,6 +121,18 @@ header h1 {
 
 .nav-right {
     text-align: right;
+}
+
+.underline::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    background-color: black;
+}
+
+.underline:hover::after {
+    width: 100%;
 }
 
 /* Hero */
@@ -217,9 +227,15 @@ main h2 {
     text-decoration: underline;
 }
 
+.padding-bottom {
+    display: inline-block;
+    padding-bottom: 2em;
+    border-bottom: 1px solid black;
+}
+
 .content-choice h4 {
     font-weight: 600;
-    padding-bottom: 2em;
+    padding: 2em 0;
 }
 
 .choice-large {
