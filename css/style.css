@@ -390,18 +390,30 @@ main h2 {
 /* FOOTER */
 footer {
     background-color: black;
-    /* Debug */
-    min-height: 700px;
+    color: white;
 }
 
+/* Footer top */
+
 .footer-top {
-    /* Debug */
-    min-height: 500px;
-    background-color: gray;
+    width: 100%;
+    padding: 5em 0;
+}
+
+.footer-list {
+    width: calc(99% / 5);
+}
+
+.footer-list li {
+    padding-top: 1em;
 }
 
 .footer-bottom {
-    /* Debug */
-    min-height: 200px;
-    background-color: lightblue;
+    color: gray;
+}
+
+.footer-bottom p {
+    padding: 3em 2em 1em 0;
+    display: inline-block;
+    border-top: 1px solid gray;
 }
