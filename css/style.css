@@ -404,6 +404,11 @@ main h2 {
     border-top: 1px solid black;
 }
 
+.question h4,
+.question .angle {
+    display: inline-block;
+}
+
 .answer {
     max-height: 0;
     overflow: hidden;
@@ -412,6 +417,10 @@ main h2 {
 .question:hover .answer {
     max-height: none;
     padding-top: 1em;
+}
+
+.question:hover .angle {
+    transform: rotate(180deg);
 }
 
 /* FOOTER */
