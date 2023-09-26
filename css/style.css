@@ -350,11 +350,21 @@ main h2 {
 /* Section with bg color */
 .section-bg-color {
     background-color: var(--bg-color);
-    padding: 5em 0;
+    padding: 7em 0;
+}
+
+.section-bg-color .flex {
+    align-items: baseline;
 }
 
 .section-bg-color h2 {
-    padding-right: 8em;
+    padding: 0;
+    color: rgb(97 8 43);
+    width: 70%;
+}
+
+.section-bg-color .btn {
+    background-color: white;
 }
 
 /* FOOTER */
