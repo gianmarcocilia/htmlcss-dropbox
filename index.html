@@ -10,7 +10,8 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <!-- /Font -->
     <!-- Link icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -55,9 +56,13 @@
                         per ottimizzare il flusso di lavoro esistente.</p>
                     <a class="btn btn-blu" href="">Inizia la tua prova gratuita</a>
                     <p>Annulla in qualsiasi momento</p>
-                    <span class="arrow-down"><i class="fa-solid fa-arrow-down"></i></span>
+                    <a class="arrow-down" href="#arrow-down-connection"><i class="fa-solid fa-arrow-down"></i></a>
                 </div>
-                <img class="hero-img" src="img/jumbo.png" alt="">
+                <div class="hero-img">
+                    <img src="img/jumbo.png" alt="">
+                </div>
+
+
             </section>
             <!-- /Hero -->
         </div>
@@ -69,7 +74,7 @@
     <main>
         <!-- Section with business plan -->
         <section class="container-small business-plan">
-            <h2>Trova il piano business che fa per te</h2>
+            <h2 id="arrow-down-connection">Trova il piano business che fa per te</h2>
             <div class="radio-box">
                 <input type="radio" name="fatturazione" value="mensile"> Fatturazione mensile
                 <input type="radio" name="fatturazione" value="annuale" checked> Fatturazione annuale
@@ -227,9 +232,8 @@
                         <div class="choice-title">
                             <h3>Enterprise</h3>
                             <p><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
-                            <br>
-                            <br>
-                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella
+                            <p class="large-padding">Soluzioni personalizzate e supporto su misura per aiutare i
+                                professionisti IT nella
                                 gestione su qualsiasi scala.</p>
                         </div>
                         <div class="btn-choice">
@@ -250,7 +254,9 @@
                 </div>
                 <div class="section-content">
                     <h3>Entra in contatto con un partner Dropbox</h3>
-                    <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                    <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per
+                        raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e
+                        supporto continui.</p>
                     <div class="btn btn-white">
                         <a href="">Trova un partner</a>
                     </div>
@@ -261,32 +267,133 @@
 
         <!-- Section with dropbox business -->
         <section class="container-small">
-            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam iusto ab debitis itaque facilis quaerat
-                atque magni ullam perferendis voluptatum aliquam quas voluptatibus</h2>
-            <div class="dropbox-business flex">
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+            <h2>Esegui più operazioni con Dropbox Business</h2>
+            <div class="dropbox-business flex space">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/business-feature-switching-tools.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e
+                            DropBox Paper direttamente da DropBox. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/business-feature-send-files-it.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e
+                            DropBox Paper direttamente da DropBox. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/business-feature-coordinate-it.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e
+                            DropBox Paper direttamente da DropBox. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/business-feature-integrations-it.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e
+                            DropBox Paper direttamente da DropBox. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/business-feature-multi-device.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e
+                            DropBox Paper direttamente da DropBox. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/business-feature-security.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e
+                            DropBox Paper direttamente da DropBox. </p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- /Section with dropbox business -->
 
         <!-- Section with link -->
         <section class="container-small link-section">
-            <h2>Lorem ipsum dolo dignissimos aliquam cumque <br>Dolores illum pariatur impedit animi eligendi, vel modi!
-            </h2>
-            <a href="">link</a>
+            <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+            <a class="buy-link" href="">Scopri di più sui nostri clienti</a>
         </section>
         <!-- /Section with link -->
 
         <!-- Section with logo partners -->
         <section class="section-partners flex">
-            <div class="content"></div>
-            <div class="content"></div>
-            <div class="content"></div>
+
+            <div class="content-logos flex">
+                <div class="designit logos">
+                    <img class="white" src="img/designit.svg" alt="">
+                </div>
+                <div class="university logos">
+                    <img class="white" src="img/arizona_state_university.svg" alt="">
+                </div>
+                <div class="channel logos">
+                    <img class="white" src="img/clear_channel.svg" alt="">
+                </div>
+                <div class="topps logos">
+                    <img class="white" src="img/topps.svg" alt="">
+                </div>
+
+            </div>
+            <div class="content">
+                <div>
+                    <img src="img/designit.2.svg" alt="">
+                </div>
+                <hr>
+                <div class="content-text">
+                    <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte
+                        soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox
+                        paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto
+                        Dropbox Paper".</p>
+                    <p>Morten Thomsen, Global IT Lead</p>
+                </div>
+            </div>
+            <div class="content-logos flex">
+                <div class="bicycle logos">
+                    <img class="white" src="img/world_bicycle_relief.svg" alt="">
+                </div>
+                <div class="hearst logos">
+                    <img class="white" src="img/hearst_corp.svg" alt="">
+                </div>
+                <div class="florida logos">
+                    <img class="white" src="img/university_of_florida.svg" alt="">
+                </div>
+
+
+                <div class="lonely logos">
+                    <img class="white" src="img/lonely_planet.svg" alt="">
+                </div>
+            </div>
+
         </section>
         <!-- /Section with logo partners -->
 
