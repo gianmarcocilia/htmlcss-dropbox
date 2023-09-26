@@ -129,6 +129,7 @@ header h1 {
     height: 1px;
     width: 0;
     background-color: black;
+    
 }
 
 .underline:hover::after {
@@ -401,6 +402,16 @@ main h2 {
 .question {
     padding: 2em 0;
     border-top: 1px solid black;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.question:hover .answer {
+    max-height: none;
+    padding-top: 1em;
 }
 
 /* FOOTER */
