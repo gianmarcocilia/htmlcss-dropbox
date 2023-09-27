@@ -74,6 +74,8 @@ a {
     filter: brightness(1.4);
 }
 
+
+
 /* HEADER */
 
 header {
@@ -145,6 +147,10 @@ header h1 {
 }
 
 /* Hero */
+.hero {
+    min-width: 750px;
+}
+
 .hero-text {
     width: 25%;
 }
@@ -310,6 +316,7 @@ main h2 {
 .content,
 .content-logos {
     width: calc(100% / 3);
+    
 }
 
 .content-logos {
@@ -318,23 +325,20 @@ main h2 {
 
 .logos {
     width: 50%;
-    display: flex;
-    align-items: center;
-    padding: 4rem;
+    aspect-ratio: 1;
 }
 
-.content {
-    overflow-y: auto;
+.content-text {
     background-color: rgb(245 245 245);
-    padding: 4em;
+    padding: 3em;
 }
 
-.content img {
+.content-text {
+    overflow-y: auto;
+}
+
+.content-text img {
     width: 50%;
-}
-
-.content hr {
-    width: 6rem;
 }
 
 .content-text p {
