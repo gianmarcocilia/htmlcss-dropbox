@@ -419,18 +419,12 @@ main h2 {
     border-top: 1px solid black;
 }
 
-.question h4,
-.question .angle {
-    display: inline-block;
-}
-
 .answer {
-    max-height: 0;
-    overflow: hidden;
+    display: none;
 }
 
 .question:hover .answer {
-    max-height: none;
+    display: block;
     padding-top: 1em;
 }
 
