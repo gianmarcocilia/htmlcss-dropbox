@@ -71,7 +71,7 @@ a {
 }
 
 .btn:hover {
-    filter: opacity(.5);
+    filter: brightness(1.4);
 }
 
 /* HEADER */
@@ -136,6 +136,14 @@ header h1 {
     width: 100%;
 }
 
+.header-nav a {
+    line-height: var(--header-nav-height);
+}
+
+.header-nav .btn-blu {
+    line-height: normal;
+}
+
 /* Hero */
 .hero-text {
     width: 25%;
@@ -176,6 +184,10 @@ main h2 {
 }
 
 /* Section business plan */
+.radio-box label {
+    margin-right: 20px;
+}
+
 .business-plan h2 {
     padding-top: var(--header-nav-height);
 }
