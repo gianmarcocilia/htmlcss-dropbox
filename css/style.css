@@ -74,8 +74,6 @@ a {
     filter: brightness(1.4);
 }
 
-
-
 /* HEADER */
 
 header {
@@ -147,9 +145,6 @@ header h1 {
 }
 
 /* Hero */
-.hero {
-    min-width: 750px;
-}
 
 .hero-text {
     width: 25%;
@@ -313,38 +308,42 @@ main h2 {
     width: 100%;
 }
 
-.content,
-.content-logos {
+.content-partners {
     width: calc(100% / 3);
-    
-}
-
-.content-logos {
-    flex-wrap: wrap;
-}
-
-.logos {
-    width: 50%;
     aspect-ratio: 1;
 }
 
-.content-text {
-    background-color: rgb(245 245 245);
-    padding: 3em;
+.logo-wrap {
+    flex-wrap: wrap;
 }
-
-.content-text {
-    overflow-y: auto;
-}
-
-.content-text img {
+.logos {
     width: 50%;
 }
 
-.content-text p {
-    padding-bottom: 2em;
+.text-content {
+    background-color: rgb(245 245 245);
+    padding: 2rem;
+    overflow-y: auto;
 }
 
+.content-partners img {
+    width: 50%;
+}
+
+.text-content p {
+    padding: 1em 0;
+}
+
+.logos {
+    position: relative;
+}
+
+.logos img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 /* Background color logos */
 
 .designit {
